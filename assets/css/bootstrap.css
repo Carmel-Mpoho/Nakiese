@@ -8991,3 +8991,8 @@ a.text-dark:hover, a.text-dark:focus {
 .flex-column {
   margin-top: 1rem;
 }
+
+.card-text {
+  padding: 0;
+  margin: 0;
+}
