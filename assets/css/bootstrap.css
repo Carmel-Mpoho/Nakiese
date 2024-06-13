@@ -8973,3 +8973,21 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.img-fluid {
+  object-fit: cover;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.custom-margin-1 {
+  margin-top: 5rem;
+}
+
+.p-0 {
+  margin-top: 1rem;
+}
+
+.flex-column {
+  margin-top: 1rem;
+}
