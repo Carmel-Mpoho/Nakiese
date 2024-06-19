@@ -1,0 +1,64 @@
+
+body{
+    margin: 0 auto;
+}
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+header.header img{
+    width: 100px;
+}
+header.header li{
+    align-items: flex-start;
+    text-indent: 20px;
+
+}
+section.page {
+    background: url('../images/Pe.jpg');
+    background-size: cover;
+    height: 500px;
+    
+  }
+
+  .nav.nav.nav {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    border-spacing: 20px;
+  }
+  .nav.nav.nav li{
+    color:black;
+    text-indent: 55px;
+    text-align: center;
+    border-spacing: 18px;
+    font-size: 16px;
+  }
+  .nav.nav.nav {
+    background-color: white;
+    height: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border-spacing: 20px;
+
+  }
+.title.title{
+    text-align: center;
+    color: white;
+    font-size: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+}
+.na.na{
+    display: flex;
+    list-style: none;
+    background-color: white;
+    height: 30px;
+    margin-left: 350px;
+    margin-right: 50px;
+    color:black;
+    text-indent: 60px;
+    text-align: center;
+}
