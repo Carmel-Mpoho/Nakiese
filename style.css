@@ -1,0 +1,112 @@
+
+body{
+    margin: 0 auto;
+}
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+header.header img{
+    width: 100px;
+}
+header.header li{
+    text-indent: 20px;
+    align-items: flex-start;
+}
+section.page {
+    background: url('../images/Pe.jpg');
+    background-size: cover;
+    height: 500px;
+    
+  }
+
+  .nav.nav.nav {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    border-spacing: 20px;
+  }
+  .nav.nav.nav li{
+    color:black;
+    text-indent: 55px;
+    text-align: center;
+    border-spacing: 18px;
+    font-size: 16px;
+  }
+  .nav.nav.nav {
+    background-color: white;
+    height: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border-spacing: 20px;
+
+  }
+.title.title{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+}
+.na.na{
+    display: flex;
+    list-style: none;
+    background-color: white;
+    height: 30px;
+    margin-left: 350px;
+    margin-right: 50px;
+    color:black;
+    text-indent: 60px;
+    text-align: center;
+}
+
+.review-form {
+  margin-bottom: 20px;
+}
+
+.review-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form label {
+  margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.review-form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.review-list {
+  margin-top: 20px;
+}
+
+.review {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  color: #333;
+}
+
+.review p {
+  margin-bottom: 5px;
+}
+
+.review strong {
+  font-weight: bold;
+}
