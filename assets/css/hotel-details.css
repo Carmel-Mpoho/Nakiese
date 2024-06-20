@@ -1,0 +1,117 @@
+/* assets/css/hotel-details.css */
+
+body {
+    font-family: 'SF Pro', sans-serif;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+.hotel-details {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hotel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.hotel-title h1 {
+    font-size: 28px;
+    font-weight: 590;
+    line-height: 33.41px;
+}
+
+.hotel-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.action-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.action-item span {
+    font-size: 16px;
+    font-weight: 590;
+    line-height: 19.09px;
+}
+
+.hotel-gallery {
+    display: flex;
+    gap: 51px;
+    margin-bottom: 34px;
+    width: 1280px;
+    height: 408px;
+}
+
+.main-image img {
+    width: 628px;
+    height: 408px;
+    border-radius: 12px 0 0 0;
+}
+
+.side-images-container {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+   
+}
+
+.side-image img {
+    width: 310px;
+    height: 195px;
+    border-radius: 12px 0 0 0;
+}
+.side-images {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+   
+}
+
+.side-image img {
+    width: 310px;
+    height: 195px;
+    border-radius: 12px 0 0 0;
+}
+
+
+.hotel-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.address-details p {
+    margin: 0;
+}
+
+.hotel-reviews {
+    display: flex;
+    gap: 20px;
+}
+
+.review-item {
+    text-align: center;
+}
+
+.review-item p.underline {
+    text-decoration: underline;
+}
+
+.stars {
+    display: flex;
+    gap: 3px;
+}
