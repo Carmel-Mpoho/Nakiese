@@ -9127,3 +9127,7 @@ a.text-dark:hover, a.text-dark:focus {
       font-size: 12px;
   }
 }
+
+a {
+  color: #040505;
+}
