@@ -12,52 +12,50 @@
 <body>
 	<section class="page">
 		<header class="header">
-			<img src="images/IMG-20240328-WA0012.jpg" alt="">
 			<div class="na">
-				<li>✈️ <a href="####">Explorer</a></li>
-				<li>|</li>
-				<li>🛌  <a href="####">Hebergements</a></li>
-				<li>|</li>
-				<li>🍽️  <a href="####">Réstauration</a></li>
 			</div>
 		</header>
 		<div class="title">
 			<h1>Votre porte d'entrée vers l'exceptionnel</h1>
 		</div>
-		<div class="nav">
-			<li>✈️   <a href="####">Où allez vous ?</a></li>
-			<li>|</li>	
-			<li>🕣   <a href="####">Date d'arriver</a></li>
-			<li>|</li>
-			<li>📆   <a href="####">Date d'arriver</a></li>
-			<li>|</li>
-			<li>👭   <a href="####">Nombre des personnes</a></li>
-			<li>| </li>
-		</div>
-		<div class="review-form">
-			<h2>Donnez votre avis :</h2>
-			<form id="review-form">
-			  <label for="review-title">Titre de l'avis :</label>
-			  <input type="text" id="review-title" name="review-title">
-		  
-			  <label for="review-content">Contenu de l'avis :</label>
-			  <textarea id="review-content" name="review-content"></textarea>
-		  
-			  <label for="review-rating">Note (1-5) :</label>
-			  <input type="number" id="review-rating" name="review-rating" min="1" max="5">
-		  
-			  <button type="submit">Soumettre l'avis</button>
+		<div class="search-container">
+			<form action="#" id="search-form">
+			  <div class="form-group">
+				<label for="destination">Où allez-vous :</label>
+				<div class="dropdown-container">
+					<select id="page-dropdown">
+					  <option value="">Choisir une déstination</option>
+					  <option value="Pe.html">Lubumbashi</option>
+					  <option value="page2.html">Kinshasa</option>
+					  <option value="page3.html">Mbujimayi</option>
+					</select>
+				  </div>
+			  </div>
+			  <div class="form-group">
+				<label for="checkin">Date d'arrivée :</label>
+				<input type="date" id="checkout" name="checkout">
+			  </div>
+			  <div class="form-group">
+				<label for="checkout">Date de départ :</label>
+				<input type="date" id="checkout" name="checkout">
+			  </div>
+			  <div class="form-group">
+				<label for="destination">Nombres des personnes :</label>
+				<div class="dropdown-container">
+					<select id="page-dropdown">
+						<option value="">Ajouter</option>
+						<option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					</select>
+				  </div>
+			  </div>
+			  <button type="submit" class="btn-search"><img src="images/ic.webp" width="25px" height="25px"></button>
 			</form>
 		  </div>
-		  
-		  <div class="review-list">
-			<h2>Avis des clients :</h2>
-			<div class="review">
-			  <h3>Titre de l'avis</h3>
-			  <p>Contenu de l'avis</p>
-			  <p><strong>Note : </strong>4/5</p>
-			</div>
-		  </div>
-	</section>		
+			</section>
+			</form>
+		</div>	
+	</section>
 </body>
 </html>
