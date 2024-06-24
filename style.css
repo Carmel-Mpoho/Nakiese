@@ -61,52 +61,76 @@ section.page {
     text-indent: 60px;
     text-align: center;
 }
-
-.review-form {
-  margin-bottom: 20px;
+.search-container {
+  text-align: center;
+  margin-left: 140px;
+  margin-right: 150px;
+  align-items: center;
 }
 
-.review-form form {
+#search-form {
   display: flex;
-  flex-direction: column;
+  align-items: center; /* Alignement vertical */
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.review-form label {
+.form-group {
+  margin-right: 20px; /* Espacement entre les champs */
+}
+
+label {
+  display: block;
   margin-bottom: 5px;
-}
-
-.review-form input,
-.review-form textarea {
-  margin-bottom: 10px;
-  padding: 5px;
-}
-
-.review-form button {
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.review-list {
-  margin-top: 20px;
-}
-
-.review {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.review h3 {
-  color: #333;
-}
-
-.review p {
-  margin-bottom: 5px;
-}
-
-.review strong {
   font-weight: bold;
 }
+
+input[type="text"], input[type="date"] {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+input[type="date"] {
+  -webkit-appearance: none;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #0071c5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #005fbb;
+}
+.dropdown-container {
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  font-size: 14px;
+}
+.container {
+  /* Optionnel : Utilisez flexbox pour centrer les mots horizontalement */
+  display: flex;
+  justify-content: center;
+}
+
+.word {
+  margin-right: 10px; /* Espacement entre les mots */
+}
+
+
+
+
+
