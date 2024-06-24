@@ -21,9 +21,11 @@ body {
 }
 
 .hotel-title h1 {
+    font-family: 'SF Pro';
     font-size: 28px;
     font-weight: 590;
     line-height: 33.41px;
+    text-align: left;
 }
 
 .hotel-actions {
@@ -38,21 +40,23 @@ body {
 }
 
 .action-item span {
+    font-family: 'SF Pro';
     font-size: 16px;
     font-weight: 590;
     line-height: 19.09px;
+    text-align: left;
 }
 
 .hotel-gallery {
     display: flex;
-    gap: 51px;
+    gap: 16px;
     margin-bottom: 34px;
     width: 1280px;
     height: 408px;
 }
 
 .main-image img {
-    width: 628px;
+    width: 630px;
     height: 408px;
     border-radius: 12px 0 0 0;
 }
@@ -60,20 +64,14 @@ body {
 .side-images-container {
     display: flex;
     flex-direction: row;
-    gap: 18px;
+    gap: 16px;
    
 }
 
-.side-image img {
-    width: 310px;
-    height: 195px;
-    border-radius: 12px 0 0 0;
-}
-.side-images {
+.side-image {
     display: flex;
-    flex-direction: row;
-    gap: 18px;
-   
+    flex-direction: column;
+    gap: 16px; 
 }
 
 .side-image img {
@@ -81,29 +79,51 @@ body {
     height: 195px;
     border-radius: 12px 0 0 0;
 }
-
 
 .hotel-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+    gap: 30px;
+    height: 100px;
 }
 
 .hotel-address {
     display: flex;
     align-items: center;
     gap: 10px;
+    border: 1px solid #222222; 
+    border-radius: 8px;
+    width: 70%;
 }
 
 .address-details p {
+    font-family: 'SF Pro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
     margin: 0;
+    
 }
 
 .hotel-reviews {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    padding: 25px;
+    border: 1px solid #222222; 
+    border-radius: 8px;
+    width: 30%;
+}
+.review-item {
+    text-align: center;
 }
 
-.review-item {
+.review-item p {
+    font-family: 'SF Pro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2px;
     text-align: center;
 }
 
@@ -113,5 +133,9 @@ body {
 
 .stars {
     display: flex;
-    gap: 3px;
+    gap: 5px;
+}
+.review-number{
+
+    font-size: 30px;
 }
